@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado alura challenge One Oracle</title>
+    <link rel="stylesheet" href="miestilo.css">
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+                  <source src="img/D12.mp4" type="video/mp4">
+            
+                </video>
+                
+         
+
+        <main id="contenido">
+           <header>
+               <h1>Juego de ahorcado</h1>
+            <p>Mireya Peña</p>
+            <p4>AlluraChallenge OracleOne program.</p4>
+            <p4>see bellow</p4>
+        
+        </header>     
+
+                <section class="inicio">
+        <div id="caja-inicio">
+
+        <button id="btn-inicio" onclick=document.location="#juego">iniciar</button>
+
+    
+            </div>
+    
+            <div id="caja-agregar">
+    
+                <br>
+                <div class="cajaagregar">
+                    <input type="text"  id="nuevapalabra" placeholder="Ingrese una palabra">
+                    <button id="btn-nuevapalabra" onclick="agregarpalabra()">agregar</button>
+        
+                    <button id="btn-limpiar"onclick="limpiar()">limpiar</button>
+                    <button  id="reiniciarjuego" onclick="location.reload()">juegonuevo</button>
+                </div>
+
+
+                <div id = "canvajugar" style="text-align:center">
+                    <canvas id="ahorcado" height="  500px" width="800px"></canvas>
+                    
+                </div>    
+                <div>
+                      
+                     
+                
+    <!-- </div>-->
+           
+            
+    
+            /*antes section id juego
+           
+           
+           <section id="juego"><div id= "Secreta"> <h4>JUEGO</h4>    </div>
+            <div  id="botonessegundapagina">
+                
+                <button id="btn-jugar" onclick="iniciar()">Palabra</button>
+                 <p4> Ingrese solo mayusculas </p4>
+                <input type="text" id="letra" maxlength="1" id="nuevaletra" placeholder="Ingrese una letra"></input>
+                <button id="btn-checar" >verifica</button>
+                <button  id="reiniciarjuego" onclick="location.reload()">juegonuevo</button><div id= "Secreta"></div>
+                </div></div>
+                <div id="hangman"></div></div>
+<                </section>
+          
+           <div id="ganador">
+          <p></p>
+          <p></p>
+          <p></p>
+             <p>felicidades  :)</p>
+          
+           </div>
+          
+            <div id="perdiste">  <button  id="reiniciarjuego" onclick="location.reload()">juegonuevo</button>
+          <p>Sorry :(</p>
+          <p>Suerte a la proxima!!!</p>
+          <img src="img/perdiste2.png" alt="perdiste">
+        
+           </div>
+          
+          
+          </div>    
+
+           </section>
+    <footer>
+            <p>Desarrollado  Mireya Peña </p>
+            <p>juego ahorcado 2022</p>
+            <audio controls>
+                <source src="img/Terror.mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+            </audio>
+        </footer>
+        </main>
+    
+        
+    
+        <script src="juego.js"></script>
+        <script src="canvas.js"></script>
+    </body>
+    
+    </html>
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
